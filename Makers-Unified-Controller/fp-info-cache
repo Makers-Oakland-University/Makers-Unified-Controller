@@ -1,4 +1,4 @@
-19407466751420804
+19420576573292804
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50876,12 +50876,68 @@ emi filter
 5
 5
 Footprint_Imports
+1825027-8
+
+
+0
+4
+4
+Footprint_Imports
+AMPHENOL_10118192-0002LF
+
+
+0
+11
+11
+Footprint_Imports
+BAT_BC4AAW
+
+
+0
+2
+2
+Footprint_Imports
+NRS5024T4R7MMGJ
+
+
+0
+2
+2
+Footprint_Imports
+SSD1306
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Footprint_Imports
+SW_1571563-4
+
+
+0
+4
+4
+Footprint_Imports
+SW_L102021ML04Q
+
+
+0
+3
+3
+Footprint_Imports
 XDCR_COM-09032
 
 
 0
 14
 14
+Footprint_Imports
+backup_prog_header
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator

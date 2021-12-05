@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Female J?
-U 1 1 61ABF151
-P 850 950
-F 0 "J?" H 1000 800 50  0000 C CNN
-F 1 "Battery_Connection" H 742 716 50  0000 C CNN
-F 2 "" H 850 950 50  0001 C CNN
-F 3 "~" H 850 950 50  0001 C CNN
-	1    850  950 
-	-1   0    0    1   
-$EndComp
-$Comp
 L Interface_USB:FT231XQ U?
 U 1 1 61AC0D78
 P 3500 5700
@@ -35,35 +24,6 @@ F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 
 	1    3500 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:USB_C_Receptacle J?
-U 1 1 61AC6AF5
-P 1150 5800
-F 0 "J?" H 1257 7067 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 1257 6976 50  0000 C CNN
-F 2 "" H 1300 5800 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 5800 50  0001 C CNN
-	1    1150 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 5300 2100 5400
-Wire Wire Line
-	2100 5400 2800 5400
-Wire Wire Line
-	2100 5400 1750 5400
-Connection ~ 2100 5400
-Wire Wire Line
-	1750 5300 2100 5300
-Wire Wire Line
-	1750 5500 2100 5500
-Wire Wire Line
-	2100 5500 2100 5600
-Wire Wire Line
-	2100 5600 1750 5600
-Connection ~ 2100 5500
-Wire Wire Line
-	2100 5500 2800 5500
 Wire Wire Line
 	2650 4550 3600 4550
 Wire Wire Line
@@ -78,8 +38,9 @@ U 1 1 61ACF723
 P 2650 6050
 F 0 "C?" H 2765 6096 50  0000 L CNN
 F 1 "0.1u" H 2765 6005 50  0000 L CNN
-F 2 "" H 2688 5900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2688 5900 50  0001 C CNN
 F 3 "~" H 2650 6050 50  0001 C CNN
+F 4 "1276-1099-1-ND" H 2650 6050 50  0001 C CNN "digikey_part_number"
 	1    2650 6050
 	1    0    0    -1  
 $EndComp
@@ -95,17 +56,6 @@ F 1 "GND" H 2655 6027 50  0000 C CNN
 F 2 "" H 2650 6200 50  0001 C CNN
 F 3 "" H 2650 6200 50  0001 C CNN
 	1    2650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61AD0E01
-P 1000 7500
-F 0 "#PWR?" H 1000 7250 50  0001 C CNN
-F 1 "GND" H 1005 7327 50  0000 C CNN
-F 2 "" H 1000 7500 50  0001 C CNN
-F 3 "" H 1000 7500 50  0001 C CNN
-	1    1000 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -132,17 +82,6 @@ Wire Wire Line
 	3500 6650 3600 6650
 Wire Wire Line
 	3500 6750 3500 6650
-Wire Wire Line
-	850  7400 850  7450
-Wire Wire Line
-	850  7450 1000 7450
-Wire Wire Line
-	1150 7450 1150 7400
-Wire Wire Line
-	1000 7500 1000 7450
-Connection ~ 1000 7450
-Wire Wire Line
-	1000 7450 1150 7450
 Wire Wire Line
 	2650 5100 2800 5100
 Connection ~ 2650 5100
@@ -178,92 +117,18 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61AE29F1
-P 1900 4750
-F 0 "#PWR?" H 1900 4600 50  0001 C CNN
-F 1 "+5V" H 1915 4923 50  0000 C CNN
-F 2 "" H 1900 4750 50  0001 C CNN
-F 3 "" H 1900 4750 50  0001 C CNN
-	1    1900 4750
+P 1550 5150
+F 0 "#PWR?" H 1550 5000 50  0001 C CNN
+F 1 "+5V" H 1565 5323 50  0000 C CNN
+F 2 "" H 1550 5150 50  0001 C CNN
+F 3 "" H 1550 5150 50  0001 C CNN
+	1    1550 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 4800 1900 4800
+	1400 5200 1550 5200
 Wire Wire Line
-	1900 4800 1900 4750
-$Comp
-L Device:R R?
-U 1 1 61AE63D5
-P 2050 6700
-F 0 "R?" H 2120 6746 50  0000 L CNN
-F 1 "5.1k" H 2120 6655 50  0000 L CNN
-F 2 "" V 1980 6700 50  0001 C CNN
-F 3 "~" H 2050 6700 50  0001 C CNN
-	1    2050 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61AE7760
-P 2350 6700
-F 0 "R?" H 2420 6746 50  0000 L CNN
-F 1 "5.1k" H 2420 6655 50  0000 L CNN
-F 2 "" V 2280 6700 50  0001 C CNN
-F 3 "~" H 2350 6700 50  0001 C CNN
-	1    2350 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61AE7AA8
-P 2050 7000
-F 0 "#PWR?" H 2050 6750 50  0001 C CNN
-F 1 "GND" H 2055 6827 50  0000 C CNN
-F 2 "" H 2050 7000 50  0001 C CNN
-F 3 "" H 2050 7000 50  0001 C CNN
-	1    2050 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61AE7E4A
-P 2350 7000
-F 0 "#PWR?" H 2350 6750 50  0001 C CNN
-F 1 "GND" H 2355 6827 50  0000 C CNN
-F 2 "" H 2350 7000 50  0001 C CNN
-F 3 "" H 2350 7000 50  0001 C CNN
-	1    2350 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 6550 2050 6200
-Wire Wire Line
-	2350 6550 2350 6200
-Text Label 2050 6200 3    50   ~ 0
-CC1
-Text Label 2350 6200 3    50   ~ 0
-CC2
-Wire Wire Line
-	2050 6850 2050 7000
-Wire Wire Line
-	2350 6850 2350 7000
-Text Label 2100 5000 2    50   ~ 0
-CC1
-Text Label 2100 5100 2    50   ~ 0
-CC2
-Wire Wire Line
-	2100 5000 1750 5000
-Wire Wire Line
-	2100 5100 1750 5100
-NoConn ~ 1750 5800
-NoConn ~ 1750 5900
-NoConn ~ 1750 6100
-NoConn ~ 1750 6200
-NoConn ~ 1750 6400
-NoConn ~ 1750 6500
-NoConn ~ 1750 6700
-NoConn ~ 1750 6800
-NoConn ~ 1750 7000
-NoConn ~ 1750 7100
+	1550 5200 1550 5150
 $Comp
 L Transistor_BJT:MMBT3904 Q?
 U 1 1 61B1A432
@@ -272,6 +137,7 @@ F 0 "Q?" H 5941 5146 50  0000 L CNN
 F 1 "MMBT3904" H 5941 5055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 5025 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5750 5100 50  0001 L CNN
+F 4 "3757-MMBT3904_R1_00001CT-ND" H 5750 5100 50  0001 C CNN "digikey_part_number"
 	1    5750 5100
 	1    0    0    -1  
 $EndComp
@@ -283,6 +149,7 @@ F 0 "Q?" H 5941 5654 50  0000 L CNN
 F 1 "MMBT3904" H 5941 5745 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 5625 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5750 5700 50  0001 L CNN
+F 4 "3757-MMBT3904_R1_00001CT-ND" H 5750 5700 50  0001 C CNN "digikey_part_number"
 	1    5750 5700
 	1    0    0    1   
 $EndComp
@@ -310,8 +177,9 @@ U 1 1 61B5BC4A
 P 5350 5700
 F 0 "R?" V 5250 5800 50  0000 C CNN
 F 1 "10k" V 5250 5600 50  0000 C CNN
-F 2 "" V 5280 5700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 5700 50  0001 C CNN
 F 3 "~" H 5350 5700 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 5350 5700 50  0001 C CNN "digikey_part_number"
 	1    5350 5700
 	0    -1   -1   0   
 $EndComp
@@ -325,8 +193,9 @@ U 1 1 61B5E86B
 P 5350 5100
 F 0 "R?" V 5250 5200 50  0000 C CNN
 F 1 "10k" V 5250 5000 50  0000 C CNN
-F 2 "" V 5280 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 5100 50  0001 C CNN
 F 3 "~" H 5350 5100 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 5350 5100 50  0001 C CNN "digikey_part_number"
 	1    5350 5100
 	0    -1   -1   0   
 $EndComp
@@ -348,9 +217,9 @@ U 1 1 61B6E336
 P 5100 7200
 F 0 "SW?" H 5100 7485 50  0000 C CNN
 F 1 "SW_Push" H 5100 7394 50  0000 C CNN
-F 2 "" H 5100 7400 50  0001 C CNN
-F 3 "~" H 5100 7400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 5100 7200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 5100 7400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 5100 7400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 5100 7200 50  0001 C CNN "digikey_part_number"
 	1    5100 7200
 	1    0    0    -1  
 $EndComp
@@ -360,9 +229,9 @@ U 1 1 61B7045A
 P 5100 6750
 F 0 "SW?" H 5100 7035 50  0000 C CNN
 F 1 "SW_Push" H 5100 6944 50  0000 C CNN
-F 2 "" H 5100 6950 50  0001 C CNN
-F 3 "~" H 5100 6950 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 5100 6750 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 5100 6950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 5100 6950 50  0001 C CNN
+F 4 "450-2055-1-ND" H 5100 6750 50  0001 C CNN "digikey_part_number"
 	1    5100 6750
 	1    0    0    -1  
 $EndComp
@@ -400,8 +269,9 @@ U 1 1 61B94BCC
 P 6050 7000
 F 0 "R?" H 6120 7046 50  0000 L CNN
 F 1 "10k" H 6120 6955 50  0000 L CNN
-F 2 "" V 5980 7000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5980 7000 50  0001 C CNN
 F 3 "~" H 6050 7000 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 6050 7000 50  0001 C CNN "digikey_part_number"
 	1    6050 7000
 	1    0    0    -1  
 $EndComp
@@ -411,8 +281,9 @@ U 1 1 61B95139
 P 6350 7000
 F 0 "R?" H 6420 7046 50  0000 L CNN
 F 1 "10k" H 6420 6955 50  0000 L CNN
-F 2 "" V 6280 7000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6280 7000 50  0001 C CNN
 F 3 "~" H 6350 7000 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 6350 7000 50  0001 C CNN "digikey_part_number"
 	1    6350 7000
 	1    0    0    -1  
 $EndComp
@@ -455,8 +326,6 @@ IO0
 Text Label 6500 6000 2    50   ~ 0
 EN
 Wire Notes Line
-	6850 7750 550  7750
-Wire Notes Line
 	550  7750 550  4400
 Wire Notes Line
 	6850 4400 6850 7750
@@ -486,7 +355,7 @@ U 1 1 61C69259
 P 2900 3300
 F 0 "U?" H 3250 3700 50  0000 L CNN
 F 1 "COM-09032" H 3250 3800 50  0000 L CNN
-F 2 "XDCR_COM-09032" H 2900 3300 50  0001 L BNN
+F 2 "Footprint_Imports:XDCR_COM-09032" H 2900 3300 50  0001 L BNN
 F 3 "" H 2900 3300 50  0001 L BNN
 F 4 "Manufacturer Recommendations" H 2900 3300 50  0001 L BNN "STANDARD"
 F 5 "N/A" H 2900 3300 50  0001 L BNN "PARTREV"
@@ -513,8 +382,9 @@ U 1 1 61C7C689
 P 3600 3700
 F 0 "R?" H 3670 3746 50  0000 L CNN
 F 1 "10k" H 3670 3655 50  0000 L CNN
-F 2 "" V 3530 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 3700 50  0001 C CNN
 F 3 "~" H 3600 3700 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 3600 3700 50  0001 C CNN "digikey_part_number"
 	1    3600 3700
 	1    0    0    -1  
 $EndComp
@@ -585,7 +455,7 @@ U 1 1 61CA1F4B
 P 4700 3300
 F 0 "U?" H 5050 3700 50  0000 L CNN
 F 1 "COM-09032" H 5050 3800 50  0000 L CNN
-F 2 "XDCR_COM-09032" H 4700 3300 50  0001 L BNN
+F 2 "Footprint_Imports:XDCR_COM-09032" H 4700 3300 50  0001 L BNN
 F 3 "" H 4700 3300 50  0001 L BNN
 F 4 "Manufacturer Recommendations" H 4700 3300 50  0001 L BNN "STANDARD"
 F 5 "N/A" H 4700 3300 50  0001 L BNN "PARTREV"
@@ -612,8 +482,9 @@ U 1 1 61CA1F57
 P 5400 3700
 F 0 "R?" H 5470 3746 50  0000 L CNN
 F 1 "10k" H 5470 3655 50  0000 L CNN
-F 2 "" V 5330 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5330 3700 50  0001 C CNN
 F 3 "~" H 5400 3700 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 5400 3700 50  0001 C CNN "digikey_part_number"
 	1    5400 3700
 	1    0    0    -1  
 $EndComp
@@ -710,11 +581,11 @@ $Comp
 L Switch:SW_Push SW?
 U 1 1 61E9B9BA
 P 6200 3200
-F 0 "SW?" V 6154 3348 50  0000 L CNN
-F 1 "SW_Push" V 6245 3348 50  0000 L CNN
-F 2 "" H 6200 3400 50  0001 C CNN
-F 3 "~" H 6200 3400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 6200 3200 50  0001 C CNN "digikey_part_number"
+F 0 "SW?" H 5900 3350 50  0000 L CNN
+F 1 "SW_RIGHT_ANGLE" H 5700 3450 50  0000 L CNN
+F 2 "Footprint_Imports:1825027-8" H 6200 3400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 6200 3400 50  0001 C CNN
+F 4 "450-1657-ND" H 6200 3200 50  0001 C CNN "digikey_part_number"
 	1    6200 3200
 	0    1    1    0   
 $EndComp
@@ -724,8 +595,9 @@ U 1 1 61E9B9C0
 P 6200 3650
 F 0 "R?" H 6270 3696 50  0000 L CNN
 F 1 "10k" H 6270 3605 50  0000 L CNN
-F 2 "" V 6130 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6130 3650 50  0001 C CNN
 F 3 "~" H 6200 3650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 6200 3650 50  0001 C CNN "digikey_part_number"
 	1    6200 3650
 	1    0    0    -1  
 $EndComp
@@ -765,25 +637,14 @@ Wire Wire Line
 Text Label 6500 3450 2    50   ~ 0
 TRIG_R
 $Comp
-L Switch:SW_Push SW?
-U 1 1 61EA3073
-P 6700 3200
-F 0 "SW?" V 6654 3348 50  0000 L CNN
-F 1 "SW_Push" V 6745 3348 50  0000 L CNN
-F 2 "" H 6700 3400 50  0001 C CNN
-F 3 "~" H 6700 3400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 6700 3200 50  0001 C CNN "digikey_part_number"
-	1    6700 3200
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 61EA3079
 P 6700 3650
 F 0 "R?" H 6770 3696 50  0000 L CNN
 F 1 "10k" H 6770 3605 50  0000 L CNN
-F 2 "" V 6630 3650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6630 3650 50  0001 C CNN
 F 3 "~" H 6700 3650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 6700 3650 50  0001 C CNN "digikey_part_number"
 	1    6700 3650
 	1    0    0    -1  
 $EndComp
@@ -836,7 +697,7 @@ U 1 1 6201BC57
 P 10650 3150
 F 0 "A?" H 10850 3750 33  0000 L CNN
 F 1 "SSD1306" H 10850 3650 33  0000 L CNN
-F 2 "" H 10650 3200 33  0001 C CNN
+F 2 "Footprint_Imports:SSD1306" H 10650 3200 33  0001 C CNN
 F 3 "" H 10650 3200 33  0001 C CNN
 	1    10650 3150
 	1    0    0    -1  
@@ -1017,8 +878,9 @@ U 1 1 61C00F7E
 P 8050 6050
 F 0 "C?" H 8165 6096 50  0000 L CNN
 F 1 "0.1u" H 8165 6005 50  0000 L CNN
-F 2 "" H 8088 5900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8088 5900 50  0001 C CNN
 F 3 "~" H 8050 6050 50  0001 C CNN
+F 4 "1276-1099-1-ND" H 8050 6050 50  0001 C CNN "digikey_part_number"
 	1    8050 6050
 	1    0    0    -1  
 $EndComp
@@ -1039,8 +901,9 @@ U 1 1 61BF7DA6
 P 8850 6050
 F 0 "C?" H 8965 6096 50  0000 L CNN
 F 1 "1u" H 8965 6005 50  0000 L CNN
-F 2 "" H 8888 5900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8888 5900 50  0001 C CNN
 F 3 "~" H 8850 6050 50  0001 C CNN
+F 4 "1276-1275-1-ND" H 8850 6050 50  0001 C CNN "digikey_part_number"
 	1    8850 6050
 	1    0    0    -1  
 $EndComp
@@ -1050,8 +913,9 @@ U 1 1 61BF68A7
 P 8450 6050
 F 0 "C?" H 8565 6096 50  0000 L CNN
 F 1 "10u" H 8565 6005 50  0000 L CNN
-F 2 "" H 8488 5900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8488 5900 50  0001 C CNN
 F 3 "~" H 8450 6050 50  0001 C CNN
+F 4 "1276-6455-1-ND" H 8450 6050 50  0001 C CNN "digikey_part_number"
 	1    8450 6050
 	1    0    0    -1  
 $EndComp
@@ -1061,17 +925,6 @@ Text Label 7600 2750 0    50   ~ 0
 EN
 Text Label 9500 2750 2    50   ~ 0
 IO0
-$Comp
-L RF_Module:ESP32-WROOM-32 U?
-U 1 1 61AC010C
-P 8450 3950
-F 0 "U?" H 8650 5500 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 8950 5400 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 8450 2450 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 8150 4000 50  0001 C CNN
-	1    8450 3950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 6257AB14
@@ -1189,8 +1042,9 @@ U 1 1 61DA9EC6
 P 7000 1650
 F 0 "R?" H 7070 1696 50  0000 L CNN
 F 1 "10k" H 7070 1605 50  0000 L CNN
-F 2 "" V 6930 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6930 1650 50  0001 C CNN
 F 3 "~" H 7000 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 7000 1650 50  0001 C CNN "digikey_part_number"
 	1    7000 1650
 	1    0    0    -1  
 $EndComp
@@ -1200,9 +1054,9 @@ U 1 1 61DA9EC0
 P 7000 1200
 F 0 "SW?" V 6954 1348 50  0000 L CNN
 F 1 "SW_Push" V 7045 1348 50  0000 L CNN
-F 2 "" H 7000 1400 50  0001 C CNN
-F 3 "~" H 7000 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 7000 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 7000 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 7000 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 7000 1200 50  0001 C CNN "digikey_part_number"
 	1    7000 1200
 	0    1    1    0   
 $EndComp
@@ -1245,8 +1099,9 @@ U 1 1 61DA4006
 P 7550 1650
 F 0 "R?" H 7620 1696 50  0000 L CNN
 F 1 "10k" H 7620 1605 50  0000 L CNN
-F 2 "" V 7480 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7480 1650 50  0001 C CNN
 F 3 "~" H 7550 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 7550 1650 50  0001 C CNN "digikey_part_number"
 	1    7550 1650
 	1    0    0    -1  
 $EndComp
@@ -1256,9 +1111,9 @@ U 1 1 61DA4000
 P 7550 1200
 F 0 "SW?" V 7504 1348 50  0000 L CNN
 F 1 "SW_Push" V 7595 1348 50  0000 L CNN
-F 2 "" H 7550 1400 50  0001 C CNN
-F 3 "~" H 7550 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 7550 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 7550 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 7550 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 7550 1200 50  0001 C CNN "digikey_part_number"
 	1    7550 1200
 	0    1    1    0   
 $EndComp
@@ -1301,8 +1156,9 @@ U 1 1 61D9E3BC
 P 10650 1650
 F 0 "R?" H 10720 1696 50  0000 L CNN
 F 1 "10k" H 10720 1605 50  0000 L CNN
-F 2 "" V 10580 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10580 1650 50  0001 C CNN
 F 3 "~" H 10650 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 10650 1650 50  0001 C CNN "digikey_part_number"
 	1    10650 1650
 	1    0    0    -1  
 $EndComp
@@ -1312,9 +1168,9 @@ U 1 1 61D9E3B6
 P 10650 1200
 F 0 "SW?" V 10604 1348 50  0000 L CNN
 F 1 "SW_Push" V 10695 1348 50  0000 L CNN
-F 2 "" H 10650 1400 50  0001 C CNN
-F 3 "~" H 10650 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 10650 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 10650 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 10650 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 10650 1200 50  0001 C CNN "digikey_part_number"
 	1    10650 1200
 	0    1    1    0   
 $EndComp
@@ -1357,8 +1213,9 @@ U 1 1 61D99097
 P 10150 1650
 F 0 "R?" H 10220 1696 50  0000 L CNN
 F 1 "10k" H 10220 1605 50  0000 L CNN
-F 2 "" V 10080 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10080 1650 50  0001 C CNN
 F 3 "~" H 10150 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 10150 1650 50  0001 C CNN "digikey_part_number"
 	1    10150 1650
 	1    0    0    -1  
 $EndComp
@@ -1368,9 +1225,9 @@ U 1 1 61D99091
 P 10150 1200
 F 0 "SW?" V 10104 1348 50  0000 L CNN
 F 1 "SW_Push" V 10195 1348 50  0000 L CNN
-F 2 "" H 10150 1400 50  0001 C CNN
-F 3 "~" H 10150 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 10150 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 10150 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 10150 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 10150 1200 50  0001 C CNN "digikey_part_number"
 	1    10150 1200
 	0    1    1    0   
 $EndComp
@@ -1413,8 +1270,9 @@ U 1 1 61D93F84
 P 9650 1650
 F 0 "R?" H 9720 1696 50  0000 L CNN
 F 1 "10k" H 9720 1605 50  0000 L CNN
-F 2 "" V 9580 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9580 1650 50  0001 C CNN
 F 3 "~" H 9650 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 9650 1650 50  0001 C CNN "digikey_part_number"
 	1    9650 1650
 	1    0    0    -1  
 $EndComp
@@ -1424,9 +1282,9 @@ U 1 1 61D93F7E
 P 9650 1200
 F 0 "SW?" V 9604 1348 50  0000 L CNN
 F 1 "SW_Push" V 9695 1348 50  0000 L CNN
-F 2 "" H 9650 1400 50  0001 C CNN
-F 3 "~" H 9650 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 9650 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 9650 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 9650 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 9650 1200 50  0001 C CNN "digikey_part_number"
 	1    9650 1200
 	0    1    1    0   
 $EndComp
@@ -1469,8 +1327,9 @@ U 1 1 61D8F447
 P 9150 1650
 F 0 "R?" H 9220 1696 50  0000 L CNN
 F 1 "10k" H 9220 1605 50  0000 L CNN
-F 2 "" V 9080 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9080 1650 50  0001 C CNN
 F 3 "~" H 9150 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 9150 1650 50  0001 C CNN "digikey_part_number"
 	1    9150 1650
 	1    0    0    -1  
 $EndComp
@@ -1480,9 +1339,9 @@ U 1 1 61D8F441
 P 9150 1200
 F 0 "SW?" V 9104 1348 50  0000 L CNN
 F 1 "SW_Push" V 9195 1348 50  0000 L CNN
-F 2 "" H 9150 1400 50  0001 C CNN
-F 3 "~" H 9150 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 9150 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 9150 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 9150 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 9150 1200 50  0001 C CNN "digikey_part_number"
 	1    9150 1200
 	0    1    1    0   
 $EndComp
@@ -1525,8 +1384,9 @@ U 1 1 61D8A913
 P 8600 1650
 F 0 "R?" H 8670 1696 50  0000 L CNN
 F 1 "10k" H 8670 1605 50  0000 L CNN
-F 2 "" V 8530 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8530 1650 50  0001 C CNN
 F 3 "~" H 8600 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 8600 1650 50  0001 C CNN "digikey_part_number"
 	1    8600 1650
 	1    0    0    -1  
 $EndComp
@@ -1536,9 +1396,9 @@ U 1 1 61D8A90D
 P 8600 1200
 F 0 "SW?" V 8554 1348 50  0000 L CNN
 F 1 "SW_Push" V 8645 1348 50  0000 L CNN
-F 2 "" H 8600 1400 50  0001 C CNN
-F 3 "~" H 8600 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 8600 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 8600 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 8600 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 8600 1200 50  0001 C CNN "digikey_part_number"
 	1    8600 1200
 	0    1    1    0   
 $EndComp
@@ -1581,8 +1441,9 @@ U 1 1 61D6A25D
 P 8100 1650
 F 0 "R?" H 8170 1696 50  0000 L CNN
 F 1 "10k" H 8170 1605 50  0000 L CNN
-F 2 "" V 8030 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8030 1650 50  0001 C CNN
 F 3 "~" H 8100 1650 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 8100 1650 50  0001 C CNN "digikey_part_number"
 	1    8100 1650
 	1    0    0    -1  
 $EndComp
@@ -1592,9 +1453,9 @@ U 1 1 61D61F81
 P 8100 1200
 F 0 "SW?" V 8054 1348 50  0000 L CNN
 F 1 "SW_Push" V 8145 1348 50  0000 L CNN
-F 2 "" H 8100 1400 50  0001 C CNN
-F 3 "~" H 8100 1400 50  0001 C CNN
-F 4 "CKN10880CT-ND" H 8100 1200 50  0001 C CNN "digikey_part_number"
+F 2 "Footprint_Imports:SW_1571563-4" H 8100 1400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 8100 1400 50  0001 C CNN
+F 4 "450-2055-1-ND" H 8100 1200 50  0001 C CNN "digikey_part_number"
 	1    8100 1200
 	0    1    1    0   
 $EndComp
@@ -1606,6 +1467,7 @@ F 0 "U?" H 4700 1667 50  0000 C CNN
 F 1 "TLV62568DBV" H 4700 1576 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4750 1050 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv62568.pdf" H 4450 1750 50  0001 C CNN
+F 4 "296-47387-1-ND" H 4700 1300 50  0001 C CNN "digikey_part_number"
 	1    4700 1300
 	1    0    0    -1  
 $EndComp
@@ -1626,8 +1488,9 @@ U 1 1 62726487
 P 5300 1200
 F 0 "L?" V 5490 1200 50  0000 C CNN
 F 1 "4.7u" V 5399 1200 50  0000 C CNN
-F 2 "" H 5300 1200 50  0001 C CNN
-F 3 "~" H 5300 1200 50  0001 C CNN
+F 2 "Footprint_Imports:NRS5024T4R7MMGJ" H 5300 1200 50  0001 C CNN
+F 3 "" H 5300 1200 50  0001 C CNN
+F 4 "587-5937-1-ND" H 5300 1200 50  0001 C CNN "digikey_part_number"
 	1    5300 1200
 	0    -1   -1   0   
 $EndComp
@@ -1637,8 +1500,9 @@ U 1 1 6272B00E
 P 5650 1750
 F 0 "R?" H 5720 1796 50  0000 L CNN
 F 1 "10k" H 5720 1705 50  0000 L CNN
-F 2 "" V 5580 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5580 1750 50  0001 C CNN
 F 3 "~" H 5650 1750 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 5650 1750 50  0001 C CNN "digikey_part_number"
 	1    5650 1750
 	1    0    0    -1  
 $EndComp
@@ -1648,8 +1512,9 @@ U 1 1 62733609
 P 5650 1350
 F 0 "R?" H 5720 1396 50  0000 L CNN
 F 1 "47k" H 5720 1305 50  0000 L CNN
-F 2 "" V 5580 1350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5580 1350 50  0001 C CNN
 F 3 "~" H 5650 1350 50  0001 C CNN
+F 4 "RMCF0805JT47K0CT-ND" H 5650 1350 50  0001 C CNN "digikey_part_number"
 	1    5650 1350
 	1    0    0    -1  
 $EndComp
@@ -1710,8 +1575,9 @@ U 1 1 6278E9CC
 P 3600 1450
 F 0 "C?" H 3715 1496 50  0000 L CNN
 F 1 "10u" H 3715 1405 50  0000 L CNN
-F 2 "" H 3638 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3638 1300 50  0001 C CNN
 F 3 "~" H 3600 1450 50  0001 C CNN
+F 4 "1276-6455-1-ND" H 3600 1450 50  0001 C CNN "digikey_part_number"
 	1    3600 1450
 	1    0    0    -1  
 $EndComp
@@ -1721,8 +1587,9 @@ U 1 1 6278F7E6
 P 4050 1450
 F 0 "C?" H 4165 1496 50  0000 L CNN
 F 1 "1u" H 4165 1405 50  0000 L CNN
-F 2 "" H 4088 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4088 1300 50  0001 C CNN
 F 3 "~" H 4050 1450 50  0001 C CNN
+F 4 "1276-1275-1-ND" H 4050 1450 50  0001 C CNN "digikey_part_number"
 	1    4050 1450
 	1    0    0    -1  
 $EndComp
@@ -1732,8 +1599,9 @@ U 1 1 627A3911
 P 6000 1450
 F 0 "C?" H 6115 1496 50  0000 L CNN
 F 1 "10u" H 6115 1405 50  0000 L CNN
-F 2 "" H 6038 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6038 1300 50  0001 C CNN
 F 3 "~" H 6000 1450 50  0001 C CNN
+F 4 "1276-6455-1-ND" H 6000 1450 50  0001 C CNN "digikey_part_number"
 	1    6000 1450
 	1    0    0    -1  
 $EndComp
@@ -1743,8 +1611,9 @@ U 1 1 627A4751
 P 6400 1450
 F 0 "C?" H 6515 1496 50  0000 L CNN
 F 1 "1u" H 6515 1405 50  0000 L CNN
-F 2 "" H 6438 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 1300 50  0001 C CNN
 F 3 "~" H 6400 1450 50  0001 C CNN
+F 4 "1276-1275-1-ND" H 6400 1450 50  0001 C CNN "digikey_part_number"
 	1    6400 1450
 	1    0    0    -1  
 $EndComp
@@ -1835,9 +1704,10 @@ L Transistor_FET:FDN340P Q?
 U 1 1 629AB89B
 P 1850 1250
 F 0 "Q?" H 2054 1296 50  0000 L CNN
-F 1 "FDN340P" H 2050 1400 50  0000 L CNN
+F 1 "SI2305B-TP" H 2050 1400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2050 1175 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 1850 1250 50  0001 L CNN
+F 3 "https://www.mccsemi.com/pdf/Products/SI2305B(SOT-23).pdf" H 1850 1250 50  0001 L CNN
+F 4 "SI2305B-TPMSCT-ND" H 1850 1250 50  0001 C CNN "digikey_part_number"
 	1    1850 1250
 	1    0    0    -1  
 $EndComp
@@ -1845,16 +1715,17 @@ Wire Wire Line
 	1050 850  1950 850 
 Wire Wire Line
 	1950 850  1950 1050
-Text Label 1450 850  0    50   ~ 0
+Text Label 1050 850  0    50   ~ 0
 BAT+
 $Comp
 L Device:D_Schottky D?
 U 1 1 629BEFDC
 P 1550 1600
 F 0 "D?" H 1550 1383 50  0000 C CNN
-F 1 "D_Schottky" H 1550 1474 50  0000 C CNN
-F 2 "" H 1550 1600 50  0001 C CNN
-F 3 "~" H 1550 1600 50  0001 C CNN
+F 1 "CDBA340-G" H 1550 1474 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 1550 1600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA320-G_~_CDBA3100-G.pdf" H 1550 1600 50  0001 C CNN
+F 4 "641-1101-1-ND" H 1550 1600 50  0001 C CNN "digikey_part_number"
 	1    1550 1600
 	-1   0    0    1   
 $EndComp
@@ -1886,8 +1757,9 @@ U 1 1 629FA883
 P 1250 1800
 F 0 "R?" H 1320 1846 50  0000 L CNN
 F 1 "10k" H 1320 1755 50  0000 L CNN
-F 2 "" V 1180 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1180 1800 50  0001 C CNN
 F 3 "~" H 1250 1800 50  0001 C CNN
+F 4 "RMCF0805JT10K0CT-ND" H 1250 1800 50  0001 C CNN "digikey_part_number"
 	1    1250 1800
 	1    0    0    -1  
 $EndComp
@@ -1911,21 +1783,6 @@ Wire Wire Line
 	1250 1600 1250 1650
 Text Label 3050 1500 2    50   ~ 0
 PWR_IN
-$Comp
-L power:GND #PWR?
-U 1 1 62A316D1
-P 1200 1000
-F 0 "#PWR?" H 1200 750 50  0001 C CNN
-F 1 "GND" H 1205 827 50  0000 C CNN
-F 2 "" H 1200 1000 50  0001 C CNN
-F 3 "" H 1200 1000 50  0001 C CNN
-	1    1200 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 950  1200 1000
-Wire Wire Line
-	1050 950  1200 950 
 Wire Notes Line
 	3200 2250 3200 550 
 Wire Notes Line
@@ -1936,96 +1793,6 @@ Wire Notes Line
 	550  2250 3200 2250
 Text Notes 600  650  0    50   ~ 0
 Input Switching
-$Comp
-L Battery_Management:MCP73811T-420I-OT U?
-U 1 1 62A881FB
-P 1200 3250
-F 0 "U?" H 1350 3750 50  0000 L CNN
-F 1 "MCP73811T-420I-OT" H 1350 3650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1250 3000 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf" H 950 3500 50  0001 C CNN
-	1    1200 3250
-	1    0    0    -1  
-$EndComp
-Text Label 2100 3150 2    50   ~ 0
-PWR_IN
-$Comp
-L power:GND #PWR?
-U 1 1 62AAC7BC
-P 1800 3600
-F 0 "#PWR?" H 1800 3350 50  0001 C CNN
-F 1 "GND" H 1805 3427 50  0000 C CNN
-F 2 "" H 1800 3600 50  0001 C CNN
-F 3 "" H 1800 3600 50  0001 C CNN
-	1    1800 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 3150 1800 3150
-$Comp
-L Device:C C?
-U 1 1 62AC6AB7
-P 1800 3350
-F 0 "C?" H 1915 3396 50  0000 L CNN
-F 1 "1u" H 1915 3305 50  0000 L CNN
-F 2 "" H 1838 3200 50  0001 C CNN
-F 3 "~" H 1800 3350 50  0001 C CNN
-	1    1800 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 3150 1800 3200
-Connection ~ 1800 3150
-Wire Wire Line
-	1800 3150 1600 3150
-Wire Wire Line
-	1800 3500 1800 3600
-$Comp
-L power:GND #PWR?
-U 1 1 62AE1CED
-P 1200 3600
-F 0 "#PWR?" H 1200 3350 50  0001 C CNN
-F 1 "GND" H 1205 3427 50  0000 C CNN
-F 2 "" H 1200 3600 50  0001 C CNN
-F 3 "" H 1200 3600 50  0001 C CNN
-	1    1200 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 3550 1200 3600
-Wire Wire Line
-	700  3350 700  3150
-Wire Wire Line
-	700  2950 1200 2950
-Wire Wire Line
-	700  3350 800  3350
-Wire Wire Line
-	800  3150 700  3150
-Connection ~ 700  3150
-Wire Wire Line
-	700  3150 700  2950
-$Comp
-L power:+5V #PWR?
-U 1 1 62B2553D
-P 700 2950
-F 0 "#PWR?" H 700 2800 50  0001 C CNN
-F 1 "+5V" H 715 3123 50  0000 C CNN
-F 2 "" H 700 2950 50  0001 C CNN
-F 3 "" H 700 2950 50  0001 C CNN
-	1    700  2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 700  2950
-Wire Notes Line
-	2250 2300 2250 4350
-Wire Notes Line
-	2250 4350 550  4350
-Wire Notes Line
-	550  4350 550  2300
-Wire Notes Line
-	550  2300 2250 2300
-Text Notes 600  2400 0    50   ~ 0
-Battery Charger
 Wire Notes Line
 	7300 2300 7300 6500
 Wire Notes Line
@@ -2040,8 +1807,9 @@ U 1 1 62DD4015
 P 2450 1600
 F 0 "SW?" H 2450 1885 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 2450 1794 50  0000 C CNN
-F 2 "" H 2450 1600 50  0001 C CNN
-F 3 "~" H 2450 1600 50  0001 C CNN
+F 2 "Footprint_Imports:SW_L102021ML04Q" H 2450 1600 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1423/l.pdf" H 2450 1600 50  0001 C CNN
+F 4 "CKC5102-ND" H 2450 1600 50  0001 C CNN "digikey_part_number"
 	1    2450 1600
 	1    0    0    -1  
 $EndComp
@@ -2056,8 +1824,9 @@ U 1 1 62E0C87C
 P 10200 5150
 F 0 "D?" V 10239 5032 50  0000 R CNN
 F 1 "G_LED" V 10148 5032 50  0000 R CNN
-F 2 "" H 10200 5150 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10200 5150 50  0001 C CNN
 F 3 "~" H 10200 5150 50  0001 C CNN
+F 4 "160-1218-1-ND" H 10200 5150 50  0001 C CNN "digikey_part_number"
 	1    10200 5150
 	0    -1   -1   0   
 $EndComp
@@ -2067,8 +1836,9 @@ U 1 1 62E0DE2D
 P 10700 5150
 F 0 "D?" V 10739 5032 50  0000 R CNN
 F 1 "B_LED" V 10648 5032 50  0000 R CNN
-F 2 "" H 10700 5150 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 5150 50  0001 C CNN
 F 3 "~" H 10700 5150 50  0001 C CNN
+F 4 "732-4982-1-ND" H 10700 5150 50  0001 C CNN "digikey_part_number"
 	1    10700 5150
 	0    -1   -1   0   
 $EndComp
@@ -2078,8 +1848,9 @@ U 1 1 62E20EB8
 P 10200 4750
 F 0 "R?" H 10270 4796 50  0000 L CNN
 F 1 "470" H 10270 4705 50  0000 L CNN
-F 2 "" V 10130 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10130 4750 50  0001 C CNN
 F 3 "~" H 10200 4750 50  0001 C CNN
+F 4 "A126441CT-ND" H 10200 4750 50  0001 C CNN "digikey_part_number"
 	1    10200 4750
 	1    0    0    -1  
 $EndComp
@@ -2089,8 +1860,9 @@ U 1 1 62E21419
 P 10700 4750
 F 0 "R?" H 10770 4796 50  0000 L CNN
 F 1 "470" H 10770 4705 50  0000 L CNN
-F 2 "" V 10630 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10630 4750 50  0001 C CNN
 F 3 "~" H 10700 4750 50  0001 C CNN
+F 4 "A126441CT-ND" H 10700 4750 50  0001 C CNN "digikey_part_number"
 	1    10700 4750
 	1    0    0    -1  
 $EndComp
@@ -2151,4 +1923,254 @@ Wire Notes Line
 	11150 5750 9800 5750
 Wire Notes Line
 	9800 5750 9800 4000
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B15AAE
+P 9850 5950
+F 0 "H?" H 9950 5996 50  0000 L CNN
+F 1 "MountingHole" H 9950 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9850 5950 50  0001 C CNN
+F 3 "~" H 9850 5950 50  0001 C CNN
+	1    9850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B16BD1
+P 9850 6150
+F 0 "H?" H 9950 6196 50  0000 L CNN
+F 1 "MountingHole" H 9950 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9850 6150 50  0001 C CNN
+F 3 "~" H 9850 6150 50  0001 C CNN
+	1    9850 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B17139
+P 9850 6350
+F 0 "H?" H 9950 6396 50  0000 L CNN
+F 1 "MountingHole" H 9950 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9850 6350 50  0001 C CNN
+F 3 "~" H 9850 6350 50  0001 C CNN
+	1    9850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B17644
+P 10600 5900
+F 0 "H?" H 10700 5946 50  0000 L CNN
+F 1 "MountingHole" H 10700 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10600 5900 50  0001 C CNN
+F 3 "~" H 10600 5900 50  0001 C CNN
+	1    10600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61B17C7A
+P 10600 6100
+F 0 "H?" H 10700 6146 50  0000 L CNN
+F 1 "MountingHole" H 10700 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10600 6100 50  0001 C CNN
+F 3 "~" H 10600 6100 50  0001 C CNN
+	1    10600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Project_Imports:BC4AAW BT?
+U 1 1 61BBC78F
+P 1300 3250
+F 0 "BT?" V 1221 3380 50  0000 L CNN
+F 1 "BC4AAW" V 1312 3380 50  0000 L CNN
+F 2 "Footprint_Imports:BAT_BC4AAW" H 1300 3250 50  0001 L BNN
+F 3 "" H 1300 3250 50  0001 L BNN
+F 4 "G" H 1300 3250 50  0001 L BNN "PARTREV"
+F 5 "MPD" H 1300 3250 50  0001 L BNN "MANUFACTURER"
+F 6 "16.00mm" H 1300 3250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer Recommendations" H 1300 3250 50  0001 L BNN "STANDARD"
+F 8 "BC4AAW-ND" V 1391 3380 33  0000 L CNN "digikey_part_number"
+	1    1300 3250
+	0    1    1    0   
+$EndComp
+Text Label 1650 2850 2    50   ~ 0
+BAT+
+Wire Wire Line
+	1300 2950 1300 2850
+Wire Wire Line
+	1300 2850 1650 2850
+$Comp
+L power:GND #PWR?
+U 1 1 61BD9C5F
+P 1300 3650
+F 0 "#PWR?" H 1300 3400 50  0001 C CNN
+F 1 "GND" H 1305 3477 50  0000 C CNN
+F 2 "" H 1300 3650 50  0001 C CNN
+F 3 "" H 1300 3650 50  0001 C CNN
+	1    1300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3550 1300 3650
+Wire Notes Line
+	550  2300 2250 2300
+Wire Notes Line
+	2250 2300 2250 4350
+Wire Notes Line
+	2250 4350 550  4350
+Wire Notes Line
+	550  4350 550  2300
+Text Notes 600  4300 0    33   ~ 0
+Note: This revision utilizes 4 AA batteries for safety and\nsimplicity. Future revisions should look into utilizing lithium \nbased batteries for recharging capability 
+Text Notes 650  2400 0    50   ~ 0
+Battery Holder
+NoConn ~ 2650 1700
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61C8F4EE
+P 6700 3200
+F 0 "SW?" H 6400 3350 50  0000 L CNN
+F 1 "SW_RIGHT_ANGLE" H 6200 3450 50  0000 L CNN
+F 2 "Footprint_Imports:1825027-8" H 6700 3400 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" H 6700 3400 50  0001 C CNN
+F 4 "450-1657-ND" H 6700 3200 50  0001 C CNN "digikey_part_number"
+	1    6700 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 61CCEE52
+P 1100 5400
+F 0 "J?" H 1157 5867 50  0000 C CNN
+F 1 "USB_B_Micro" H 1157 5776 50  0000 C CNN
+F 2 "Footprint_Imports:AMPHENOL_10118192-0002LF" H 1250 5350 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 1250 5350 50  0001 C CNN
+F 4 "609-5379-1-ND" H 1100 5400 50  0001 C CNN "digikey_part_number"
+	1    1100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CDD6CA
+P 1050 5850
+F 0 "#PWR?" H 1050 5600 50  0001 C CNN
+F 1 "GND" H 1055 5677 50  0000 C CNN
+F 2 "" H 1050 5850 50  0001 C CNN
+F 3 "" H 1050 5850 50  0001 C CNN
+	1    1050 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5800 1000 5850
+Wire Wire Line
+	1000 5850 1050 5850
+Wire Wire Line
+	1100 5850 1100 5800
+Connection ~ 1050 5850
+Wire Wire Line
+	1050 5850 1100 5850
+Wire Wire Line
+	1550 5400 1650 5500
+Wire Wire Line
+	1650 5500 2800 5500
+Wire Wire Line
+	1400 5400 1550 5400
+Wire Wire Line
+	1550 5500 1650 5400
+Wire Wire Line
+	1650 5400 2800 5400
+Wire Wire Line
+	1400 5500 1550 5500
+NoConn ~ 1400 5600
+$Comp
+L RF_Module:ESP32-WROOM-32D U?
+U 1 1 61D81499
+P 8450 3950
+F 0 "U?" H 8450 5531 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 8450 5440 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 8450 2450 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 8150 4000 50  0001 C CNN
+F 4 "1965-ESP32-WROOM-32D(4MB)CT-ND" H 8450 3950 50  0001 C CNN "digikey_part_number"
+	1    8450 3950
+	1    0    0    -1  
+$EndComp
+Text Label 4750 5300 2    50   ~ 0
+BRIDGE_RTS
+Text Label 4750 5500 2    50   ~ 0
+BRIDGE_DTR
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 61DC442F
+P 1850 6950
+F 0 "J?" H 1878 6926 50  0000 L CNN
+F 1 "backup_PROG" H 1878 6835 50  0000 L CNN
+F 2 "Footprint_Imports:backup_prog_header" H 1850 6950 50  0001 C CNN
+F 3 "~" H 1850 6950 50  0001 C CNN
+	1    1850 6950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	750  6200 750  7700
+Wire Notes Line
+	750  7700 2450 7700
+Wire Notes Line
+	2450 7700 2450 6200
+Wire Notes Line
+	2450 6200 750  6200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61E0C8D5
+P 1550 6750
+F 0 "#PWR?" H 1550 6600 50  0001 C CNN
+F 1 "+3.3V" H 1565 6923 50  0000 C CNN
+F 2 "" H 1550 6750 50  0001 C CNN
+F 3 "" H 1550 6750 50  0001 C CNN
+	1    1550 6750
+	1    0    0    -1  
+$EndComp
+Text Label 1150 6850 0    50   ~ 0
+BRIDGE_DTR
+Text Label 1150 6950 0    50   ~ 0
+BRIDGE_RX
+Text Label 1150 7050 0    50   ~ 0
+BRIDGE_TX
+$Comp
+L power:GND #PWR?
+U 1 1 61E0E0CA
+P 1050 7150
+F 0 "#PWR?" H 1050 6900 50  0001 C CNN
+F 1 "GND" H 1055 6977 50  0000 C CNN
+F 2 "" H 1050 7150 50  0001 C CNN
+F 3 "" H 1050 7150 50  0001 C CNN
+	1    1050 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61E0E9CE
+P 1450 7250
+F 0 "#PWR?" H 1450 7100 50  0001 C CNN
+F 1 "+5V" H 1465 7423 50  0000 C CNN
+F 2 "" H 1450 7250 50  0001 C CNN
+F 3 "" H 1450 7250 50  0001 C CNN
+	1    1450 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 6750 1650 6750
+Wire Wire Line
+	1150 6850 1650 6850
+Wire Wire Line
+	1150 6950 1650 6950
+Wire Wire Line
+	1150 7050 1650 7050
+Wire Wire Line
+	1050 7150 1650 7150
+Wire Wire Line
+	1450 7250 1650 7250
+Text Notes 800  6300 0    50   ~ 0
+Backup Programming Header
+Text Notes 800  7650 0    30   ~ 0
+At the time of this design the FT231XQ is difficult to obtain, this \nbackup header will allow for an external programmer to be used if\nthe FT231 cannot be purchased
 $EndSCHEMATC
