@@ -2162,4 +2162,42 @@ Text Notes 800  6300 0    50   ~ 0
 Backup Programming Header
 Text Notes 800  7650 0    30   ~ 0
 At the time of this design the FT231XQ is difficult to obtain, this \nbackup header will allow for an external programmer to be used if\nthe FT231 cannot be purchased
+Text Label 1750 5400 0    50   ~ 0
+D-
+Text Label 1750 5500 0    50   ~ 0
+D+
+$Comp
+L Device:C C9
+U 1 1 61B29F1A
+P 2250 4850
+F 0 "C9" H 2365 4896 50  0000 L CNN
+F 1 "1u" H 2365 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2288 4700 50  0001 C CNN
+F 3 "~" H 2250 4850 50  0001 C CNN
+F 4 "1276-1275-1-ND" H 2250 4850 50  0001 C CNN "digikey_part_number"
+	1    2250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR061
+U 1 1 61B2D3A0
+P 2250 4700
+F 0 "#PWR061" H 2250 4550 50  0001 C CNN
+F 1 "+3.3V" H 2265 4873 50  0000 C CNN
+F 2 "" H 2250 4700 50  0001 C CNN
+F 3 "" H 2250 4700 50  0001 C CNN
+	1    2250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR062
+U 1 1 61B2E1BA
+P 2250 5000
+F 0 "#PWR062" H 2250 4750 50  0001 C CNN
+F 1 "GND" H 2255 4827 50  0000 C CNN
+F 2 "" H 2250 5000 50  0001 C CNN
+F 3 "" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
