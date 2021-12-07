@@ -1,0 +1,16 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,LCSC_part_number,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,PARTREV,STANDARD,digikey_part_number
+1,1,A1,SSD1306,Project_Imports:SSD1306,Footprint_Imports:SSD1306,,,,,,,
+2,1,BT1,BC4AAW,Project_Imports:BC4AAW,Footprint_Imports:BAT_BC4AAW,,,MPD,16.00mm,G,Manufacturer Recommendations,BC4AAW-ND
+3,2,"C1, C6",0.1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,,,,,1276-1099-1-ND
+6,1,D1,CDBA340-G,Device:D_Schottky,Diode_SMD:D_SMA,https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA320-G_~_CDBA3100-G.pdf,,,,,,641-1101-1-ND
+9,4,"H1, H2, H3, H4",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3.2mm_M3_Pad_Via,~,,,,,,
+10,1,J1,USB_B_Micro,Connector:USB_B_Micro,Footprint_Imports:AMPHENOL_10118192-0002LF,https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf,,,,,,609-5379-1-ND
+11,1,J2,backup_PROG,Connector:Conn_01x06_Female,Footprint_Imports:backup_prog_header,~,,,,,,
+12,1,L1,4.7u,Device:L,Footprint_Imports:NRS5024T4R7MMGJ,,,,,,,587-5937-1-ND
+13,1,Q1,SI2305B-TP,Transistor_FET:FDN340P,Package_TO_SOT_SMD:SOT-23,https://www.mccsemi.com/pdf/Products/SI2305B(SOT-23).pdf,,,,,,SI2305B-TPMSCT-ND
+18,1,SW1,SW_DPDT_x2,Switch:SW_DPDT_x2,Footprint_Imports:SW_L102021ML04Q,https://www.ckswitches.com/media/1423/l.pdf,,,,,,CKC5102-ND
+19,10,"SW2, SW3, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13",SW_Push,Project_Imports:1571563-4,Footprint_Imports:SW_1571563-4,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English,,,,,,450-2055-1-ND
+20,2,"SW4, SW5",SW_RIGHT_ANGLE,Switch:SW_Push,Footprint_Imports:1825027-8,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English,,,,,,450-1657-ND
+21,2,"U1, U4",COM-09032,Project_Imports:COM-09032,Footprint_Imports:XDCR_COM-09032,,,SparkFun Electronics,30.1mm,N/A,Manufacturer Recommendations,1568-1526-ND
+22,1,U2,FT231XQ,Interface_USB:FT231XQ,Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf,,,,,,
+23,1,U3,TLV62568DBV,Regulator_Switching:TLV62568DBV,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/ds/symlink/tlv62568.pdf,,,,,,296-47387-1-ND

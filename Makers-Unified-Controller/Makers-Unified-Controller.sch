@@ -138,6 +138,7 @@ F 1 "MMBT3904" H 5941 5055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 5025 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5750 5100 50  0001 L CNN
 F 4 "3757-MMBT3904_R1_00001CT-ND" H 5750 5100 50  0001 C CNN "digikey_part_number"
+F 5 "C20526" H 5750 5100 50  0001 C CNN "LCSC_part_number"
 	1    5750 5100
 	1    0    0    -1  
 $EndComp
@@ -150,6 +151,7 @@ F 1 "MMBT3904" H 5941 5745 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 5625 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5750 5700 50  0001 L CNN
 F 4 "3757-MMBT3904_R1_00001CT-ND" H 5750 5700 50  0001 C CNN "digikey_part_number"
+F 5 "C20526" H 5750 5700 50  0001 C CNN "LCSC_part_number"
 	1    5750 5700
 	1    0    0    1   
 $EndComp
@@ -180,6 +182,7 @@ F 1 "10k" V 5250 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 5700 50  0001 C CNN
 F 3 "~" H 5350 5700 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 5350 5700 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 5350 5700 50  0001 C CNN "LCSC_part_number"
 	1    5350 5700
 	0    -1   -1   0   
 $EndComp
@@ -196,6 +199,7 @@ F 1 "10k" V 5250 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 5100 50  0001 C CNN
 F 3 "~" H 5350 5100 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 5350 5100 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 5350 5100 50  0001 C CNN "LCSC_part_number"
 	1    5350 5100
 	0    -1   -1   0   
 $EndComp
@@ -272,6 +276,7 @@ F 1 "10k" H 6120 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5980 7000 50  0001 C CNN
 F 3 "~" H 6050 7000 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 6050 7000 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 6050 7000 50  0001 C CNN "LCSC_part_number"
 	1    6050 7000
 	1    0    0    -1  
 $EndComp
@@ -284,6 +289,7 @@ F 1 "10k" H 6420 6955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6280 7000 50  0001 C CNN
 F 3 "~" H 6350 7000 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 6350 7000 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 6350 7000 50  0001 C CNN "LCSC_part_number"
 	1    6350 7000
 	1    0    0    -1  
 $EndComp
@@ -385,6 +391,7 @@ F 1 "10k" H 3670 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 3700 50  0001 C CNN
 F 3 "~" H 3600 3700 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 3600 3700 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 3600 3700 50  0001 C CNN "LCSC_part_number"
 	1    3600 3700
 	1    0    0    -1  
 $EndComp
@@ -485,6 +492,7 @@ F 1 "10k" H 5470 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5330 3700 50  0001 C CNN
 F 3 "~" H 5400 3700 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 5400 3700 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 5400 3700 50  0001 C CNN "LCSC_part_number"
 	1    5400 3700
 	1    0    0    -1  
 $EndComp
@@ -598,6 +606,7 @@ F 1 "10k" H 6270 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6130 3650 50  0001 C CNN
 F 3 "~" H 6200 3650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 6200 3650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 6200 3650 50  0001 C CNN "LCSC_part_number"
 	1    6200 3650
 	1    0    0    -1  
 $EndComp
@@ -645,6 +654,7 @@ F 1 "10k" H 6770 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6630 3650 50  0001 C CNN
 F 3 "~" H 6700 3650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 6700 3650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 6700 3650 50  0001 C CNN "LCSC_part_number"
 	1    6700 3650
 	1    0    0    -1  
 $EndComp
@@ -898,6 +908,7 @@ F 1 "1u" H 8715 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8638 5900 50  0001 C CNN
 F 3 "~" H 8600 6050 50  0001 C CNN
 F 4 "1276-1275-1-ND" H 8600 6050 50  0001 C CNN "digikey_part_number"
+F 5 "C28323" H 8600 6050 50  0001 C CNN "LCSC_part_number"
 	1    8600 6050
 	1    0    0    -1  
 $EndComp
@@ -910,6 +921,7 @@ F 1 "10u" H 8315 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8238 5900 50  0001 C CNN
 F 3 "~" H 8200 6050 50  0001 C CNN
 F 4 "1276-6455-1-ND" H 8200 6050 50  0001 C CNN "digikey_part_number"
+F 5 "C15850" H 8200 6050 50  0001 C CNN "LCSC_part_number"
 	1    8200 6050
 	1    0    0    -1  
 $EndComp
@@ -1039,6 +1051,7 @@ F 1 "10k" H 7070 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6930 1650 50  0001 C CNN
 F 3 "~" H 7000 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 7000 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 7000 1650 50  0001 C CNN "LCSC_part_number"
 	1    7000 1650
 	1    0    0    -1  
 $EndComp
@@ -1096,6 +1109,7 @@ F 1 "10k" H 7620 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7480 1650 50  0001 C CNN
 F 3 "~" H 7550 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 7550 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 7550 1650 50  0001 C CNN "LCSC_part_number"
 	1    7550 1650
 	1    0    0    -1  
 $EndComp
@@ -1153,6 +1167,7 @@ F 1 "10k" H 10720 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10580 1650 50  0001 C CNN
 F 3 "~" H 10650 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 10650 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 10650 1650 50  0001 C CNN "LCSC_part_number"
 	1    10650 1650
 	1    0    0    -1  
 $EndComp
@@ -1210,6 +1225,7 @@ F 1 "10k" H 10220 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10080 1650 50  0001 C CNN
 F 3 "~" H 10150 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 10150 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 10150 1650 50  0001 C CNN "LCSC_part_number"
 	1    10150 1650
 	1    0    0    -1  
 $EndComp
@@ -1267,6 +1283,7 @@ F 1 "10k" H 9720 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9580 1650 50  0001 C CNN
 F 3 "~" H 9650 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 9650 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 9650 1650 50  0001 C CNN "LCSC_part_number"
 	1    9650 1650
 	1    0    0    -1  
 $EndComp
@@ -1324,6 +1341,7 @@ F 1 "10k" H 9220 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9080 1650 50  0001 C CNN
 F 3 "~" H 9150 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 9150 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 9150 1650 50  0001 C CNN "LCSC_part_number"
 	1    9150 1650
 	1    0    0    -1  
 $EndComp
@@ -1381,6 +1399,7 @@ F 1 "10k" H 8670 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8530 1650 50  0001 C CNN
 F 3 "~" H 8600 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 8600 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 8600 1650 50  0001 C CNN "LCSC_part_number"
 	1    8600 1650
 	1    0    0    -1  
 $EndComp
@@ -1438,6 +1457,7 @@ F 1 "10k" H 8170 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8030 1650 50  0001 C CNN
 F 3 "~" H 8100 1650 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 8100 1650 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 8100 1650 50  0001 C CNN "LCSC_part_number"
 	1    8100 1650
 	1    0    0    -1  
 $EndComp
@@ -1497,6 +1517,7 @@ F 1 "10k" H 5720 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5580 1750 50  0001 C CNN
 F 3 "~" H 5650 1750 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 5650 1750 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 5650 1750 50  0001 C CNN "LCSC_part_number"
 	1    5650 1750
 	1    0    0    -1  
 $EndComp
@@ -1509,6 +1530,7 @@ F 1 "47k" H 5720 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5580 1350 50  0001 C CNN
 F 3 "~" H 5650 1350 50  0001 C CNN
 F 4 "RMCF0805JT47K0CT-ND" H 5650 1350 50  0001 C CNN "digikey_part_number"
+F 5 "C17713" H 5650 1350 50  0001 C CNN "LCSC_part_number"
 	1    5650 1350
 	1    0    0    -1  
 $EndComp
@@ -1572,6 +1594,7 @@ F 1 "10u" H 3715 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3638 1300 50  0001 C CNN
 F 3 "~" H 3600 1450 50  0001 C CNN
 F 4 "1276-6455-1-ND" H 3600 1450 50  0001 C CNN "digikey_part_number"
+F 5 "C15850" H 3600 1450 50  0001 C CNN "LCSC_part_number"
 	1    3600 1450
 	1    0    0    -1  
 $EndComp
@@ -1584,6 +1607,7 @@ F 1 "1u" H 4165 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4088 1300 50  0001 C CNN
 F 3 "~" H 4050 1450 50  0001 C CNN
 F 4 "1276-1275-1-ND" H 4050 1450 50  0001 C CNN "digikey_part_number"
+F 5 "C28323" H 4050 1450 50  0001 C CNN "LCSC_part_number"
 	1    4050 1450
 	1    0    0    -1  
 $EndComp
@@ -1596,6 +1620,7 @@ F 1 "10u" H 6115 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6038 1300 50  0001 C CNN
 F 3 "~" H 6000 1450 50  0001 C CNN
 F 4 "1276-6455-1-ND" H 6000 1450 50  0001 C CNN "digikey_part_number"
+F 5 "C15850" H 6000 1450 50  0001 C CNN "LCSC_part_number"
 	1    6000 1450
 	1    0    0    -1  
 $EndComp
@@ -1608,6 +1633,7 @@ F 1 "1u" H 6515 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 1300 50  0001 C CNN
 F 3 "~" H 6400 1450 50  0001 C CNN
 F 4 "1276-1275-1-ND" H 6400 1450 50  0001 C CNN "digikey_part_number"
+F 5 "C28323" H 6400 1450 50  0001 C CNN "LCSC_part_number"
 	1    6400 1450
 	1    0    0    -1  
 $EndComp
@@ -1754,6 +1780,7 @@ F 1 "10k" H 1320 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1180 1800 50  0001 C CNN
 F 3 "~" H 1250 1800 50  0001 C CNN
 F 4 "RMCF0805JT10K0CT-ND" H 1250 1800 50  0001 C CNN "digikey_part_number"
+F 5 "C17414" H 1250 1800 50  0001 C CNN "LCSC_part_number"
 	1    1250 1800
 	1    0    0    -1  
 $EndComp
@@ -1821,6 +1848,7 @@ F 1 "G_LED" V 10148 5032 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10200 5150 50  0001 C CNN
 F 3 "~" H 10200 5150 50  0001 C CNN
 F 4 "160-1218-1-ND" H 10200 5150 50  0001 C CNN "digikey_part_number"
+F 5 "C2297" H 10200 5150 50  0001 C CNN "LCSC_part_number"
 	1    10200 5150
 	0    -1   -1   0   
 $EndComp
@@ -1833,6 +1861,7 @@ F 1 "B_LED" V 10648 5032 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 5150 50  0001 C CNN
 F 3 "~" H 10700 5150 50  0001 C CNN
 F 4 "732-4982-1-ND" H 10700 5150 50  0001 C CNN "digikey_part_number"
+F 5 "C2293" H 10700 5150 50  0001 C CNN "LCSC_part_number"
 	1    10700 5150
 	0    -1   -1   0   
 $EndComp
@@ -1845,6 +1874,7 @@ F 1 "470" H 10270 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10130 4750 50  0001 C CNN
 F 3 "~" H 10200 4750 50  0001 C CNN
 F 4 "A126441CT-ND" H 10200 4750 50  0001 C CNN "digikey_part_number"
+F 5 "C17710" H 10200 4750 50  0001 C CNN "LCSC_part_number"
 	1    10200 4750
 	1    0    0    -1  
 $EndComp
@@ -1857,6 +1887,7 @@ F 1 "470" H 10770 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10630 4750 50  0001 C CNN
 F 3 "~" H 10700 4750 50  0001 C CNN
 F 4 "A126441CT-ND" H 10700 4750 50  0001 C CNN "digikey_part_number"
+F 5 "C17710" H 10700 4750 50  0001 C CNN "LCSC_part_number"
 	1    10700 4750
 	1    0    0    -1  
 $EndComp
@@ -2075,6 +2106,7 @@ F 1 "ESP32-WROOM-32D" H 8450 5440 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 8450 2450 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 8150 4000 50  0001 C CNN
 F 4 "1965-ESP32-WROOM-32D(4MB)CT-ND" H 8450 3950 50  0001 C CNN "digikey_part_number"
+F 5 "C473012" H 8450 3950 50  0001 C CNN "LCSC_part_number"
 	1    8450 3950
 	1    0    0    -1  
 $EndComp
@@ -2169,6 +2201,7 @@ F 1 "1u" H 2365 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2288 4700 50  0001 C CNN
 F 3 "~" H 2250 4850 50  0001 C CNN
 F 4 "1276-1275-1-ND" H 2250 4850 50  0001 C CNN "digikey_part_number"
+F 5 "C28323" H 2250 4850 50  0001 C CNN "LCSC_part_number"
 	1    2250 4850
 	1    0    0    -1  
 $EndComp
@@ -2242,6 +2275,7 @@ F 1 "1u" H 9065 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8988 5900 50  0001 C CNN
 F 3 "~" H 8950 6050 50  0001 C CNN
 F 4 "1276-1275-1-ND" H 8950 6050 50  0001 C CNN "digikey_part_number"
+F 5 "C28323" H 8950 6050 50  0001 C CNN "LCSC_part_number"
 	1    8950 6050
 	1    0    0    -1  
 $EndComp
@@ -2280,6 +2314,7 @@ F 1 "1u" H 9415 6005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9338 5900 50  0001 C CNN
 F 3 "~" H 9300 6050 50  0001 C CNN
 F 4 "1276-1275-1-ND" H 9300 6050 50  0001 C CNN "digikey_part_number"
+F 5 "C28323" H 9300 6050 50  0001 C CNN "LCSC_part_number"
 	1    9300 6050
 	1    0    0    -1  
 $EndComp
