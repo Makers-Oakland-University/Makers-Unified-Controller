@@ -10,4 +10,10 @@ $CMP BC4AAW
 D Battery Holder 4 AA
 $ENDCMP
 #
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 #End Doc Library
