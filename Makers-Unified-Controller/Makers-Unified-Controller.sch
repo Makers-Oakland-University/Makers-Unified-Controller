@@ -2318,4 +2318,6 @@ F 5 "C28323" H 9300 6050 50  0001 C CNN "LCSC_part_number"
 	1    9300 6050
 	1    0    0    -1  
 $EndComp
+Text Notes 11750 1550 0    98   ~ 0
+REVISION 2 TODO: \n   - Move left joystick to ADC1 so it can operate with WIFI \n   - Switch Buck Converter (Out of stock everywhere)\n   - Lithium Ion Battery!
 $EndSCHEMATC
