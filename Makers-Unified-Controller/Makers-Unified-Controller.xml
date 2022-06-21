@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>/home/matthew/Documents/Makers-Unified-Controller/Makers-Unified-Controller/Makers-Unified-Controller.kicad_sch</source>
-    <date>Sat 18 Jun 2022 11:30:43 AM EDT</date>
+    <date>Tue 21 Jun 2022 09:38:16 AM EDT</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Makers Unified Controller</title>
         <company>Makers @ Oakland University</company>
-        <rev>1</rev>
-        <date>2021-12-04</date>
+        <rev>2</rev>
+        <date>2022-06-19</date>
         <source>Makers-Unified-Controller.kicad_sch</source>
-        <comment number="1" value="Revision 1 Created By - Matthew James Bellafaire"/>
+        <comment number="1" value="Revision 1 &amp; 2 Created By - Matthew James Bellafaire"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -24,12 +24,12 @@
     </sheet>
     <sheet number="2" name="/Power Management/" tstamps="/63021d15-d11b-49d2-bf84-ec09f8b47294/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
+        <title>Makers Unified Controller</title>
+        <company>Makers @ Oakland University</company>
+        <rev>2</rev>
         <date/>
         <source>power_management.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Revision 1 &amp; 2 Created By - Matthew James Bellafaire"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -782,6 +782,7 @@
     </comp>
     <comp ref="BT1">
       <value>PRT-18286</value>
+      <footprint>Footprint_Imports:PRT18286</footprint>
       <datasheet>https://cdn.sparkfun.com/assets/e/3/3/2/7/-KPL623450-1300mAh-3.7V_______________2021-01-21.pdf</datasheet>
       <fields>
         <field name="digikey_part_number">1568-PRT-18286-ND</field>
@@ -795,6 +796,7 @@
     </comp>
     <comp ref="C2">
       <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -809,6 +811,7 @@
     </comp>
     <comp ref="C3">
       <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -823,6 +826,7 @@
     </comp>
     <comp ref="C4">
       <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C28323</field>
         <field name="digikey_part_number">1276-1275-1-ND</field>
@@ -837,6 +841,7 @@
     </comp>
     <comp ref="C5">
       <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -851,6 +856,7 @@
     </comp>
     <comp ref="C12">
       <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -865,6 +871,7 @@
     </comp>
     <comp ref="C13">
       <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C28323</field>
         <field name="digikey_part_number">1276-1275-1-ND</field>
@@ -879,6 +886,7 @@
     </comp>
     <comp ref="D1">
       <value>CDBA340-G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
       <fields>
         <field name="digikey_part_number">641-1101-1-ND</field>
       </fields>
@@ -891,6 +899,7 @@
     </comp>
     <comp ref="J3">
       <value>BAT Connector</value>
+      <footprint>Footprint_Imports:PRT-18286 Connector</footprint>
       <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="power_management.kicad_sch"/>
@@ -899,6 +908,7 @@
     </comp>
     <comp ref="L1">
       <value>6.2u</value>
+      <footprint>Inductor_SMD:L_6.3x6.3_H3</footprint>
       <datasheet>https://www.we-online.com/katalog/datasheet/744053006.pdf</datasheet>
       <fields>
         <field name="digikey_part_number">732-1041-1-ND</field>
@@ -912,6 +922,7 @@
     </comp>
     <comp ref="Q1">
       <value>PJA3401A_R1_00001</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</datasheet>
       <fields>
         <field name="digikey_part_number">3757-PJA3401A_R1_00001CT-ND</field>
@@ -925,6 +936,7 @@
     </comp>
     <comp ref="R1">
       <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
         <field name="digikey_part_number">RMCF0805JT2K20CT-ND</field>
       </fields>
@@ -937,6 +949,7 @@
     </comp>
     <comp ref="R6">
       <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C17414</field>
         <field name="digikey_part_number">RMCF0805JT10K0CT-ND</field>
@@ -951,6 +964,7 @@
     </comp>
     <comp ref="SW1">
       <value>SW_DPDT_x2</value>
+      <footprint>Footprint_Imports:SW_L102021ML04Q</footprint>
       <fields>
         <field name="digikey_part_number">CKC5102-ND</field>
       </fields>
@@ -963,6 +977,7 @@
     </comp>
     <comp ref="U3">
       <value>MCP73832-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
       <libsource lib="Battery_Management" part="MCP73832-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package"/>
       <property name="Sheetname" value="Power Management"/>
@@ -972,12 +987,14 @@
     </comp>
     <comp ref="U6">
       <value>TPS62046DRCR</value>
+      <footprint>Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.2x2mm_ThermalVias</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/tps62040.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1655555568465&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps62040</datasheet>
       <fields>
+        <field name="digikey">296-15902-1-ND</field>
         <field name="digikey_part_number">296-15902-1-ND</field>
       </fields>
       <libsource lib="Project_Imports" part="TPS62046DRCR" description=""/>
-      <property name="digikey" value=""/>
+      <property name="digikey" value="296-15902-1-ND"/>
       <property name="digikey_part_number" value="296-15902-1-ND"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="power_management.kicad_sch"/>
@@ -1280,6 +1297,7 @@
         <pin num="8" name="SW" type="output"/>
         <pin num="9" name="PGND" type="input"/>
         <pin num="10" name="PGND" type="input"/>
+        <pin num="11" name="PAD" type="input"/>
       </pins>
     </libpart>
     <libpart lib="RF_Module" part="ESP32-WROOM-32D">
@@ -1564,70 +1582,75 @@
       <node ref="U6" pin="2" pinfunction="VIN" pintype="input"/>
       <node ref="U6" pin="3" pinfunction="VIN" pintype="input"/>
     </net>
-    <net code="19" name="/RIGHT_JOY_SW">
+    <net code="19" name="/Power Management/BUCK_SW">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="SW" pintype="output"/>
+      <node ref="U6" pin="8" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="20" name="/RIGHT_JOY_SW">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U4" pin="B2A" pinfunction="SW-" pintype="passive"/>
       <node ref="U5" pin="13" pinfunction="IO14" pintype="bidirectional"/>
     </net>
-    <net code="20" name="/RIGHT_JOY_X">
+    <net code="21" name="/RIGHT_JOY_X">
       <node ref="U4" pin="H2" pinfunction="H" pintype="passive"/>
       <node ref="U5" pin="8" pinfunction="IO32" pintype="bidirectional"/>
     </net>
-    <net code="21" name="/RIGHT_JOY_Y">
+    <net code="22" name="/RIGHT_JOY_Y">
       <node ref="U4" pin="V2" pinfunction="V" pintype="passive"/>
       <node ref="U5" pin="9" pinfunction="IO33" pintype="bidirectional"/>
     </net>
-    <net code="22" name="/SW_1">
+    <net code="23" name="/SW_1">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="SW6" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="28" pinfunction="IO17" pintype="bidirectional"/>
     </net>
-    <net code="23" name="/SW_2">
+    <net code="24" name="/SW_2">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="SW7" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="27" pinfunction="IO16" pintype="bidirectional"/>
     </net>
-    <net code="24" name="/SW_3">
+    <net code="25" name="/SW_3">
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="SW8" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="31" pinfunction="IO19" pintype="bidirectional"/>
     </net>
-    <net code="25" name="/SW_4">
+    <net code="26" name="/SW_4">
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="SW9" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="30" pinfunction="IO18" pintype="bidirectional"/>
     </net>
-    <net code="26" name="/SW_5">
+    <net code="27" name="/SW_5">
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="SW10" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="10" pinfunction="IO25" pintype="bidirectional"/>
     </net>
-    <net code="27" name="/SW_6">
+    <net code="28" name="/SW_6">
       <node ref="R17" pin="1" pintype="passive"/>
       <node ref="SW11" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="16" pinfunction="IO13" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/SW_7">
+    <net code="29" name="/SW_7">
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="SW12" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="4" pinfunction="SENSOR_VP" pintype="input"/>
     </net>
-    <net code="29" name="/SW_8">
+    <net code="30" name="/SW_8">
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="SW13" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="11" pinfunction="IO26" pintype="bidirectional"/>
     </net>
-    <net code="30" name="/TRIG_L">
+    <net code="31" name="/TRIG_L">
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U5" pin="37" pinfunction="IO23" pintype="bidirectional"/>
     </net>
-    <net code="31" name="/TRIG_R">
+    <net code="32" name="/TRIG_R">
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U5" pin="12" pinfunction="IO27" pintype="bidirectional"/>
     </net>
-    <net code="32" name="GND">
+    <net code="33" name="GND">
       <node ref="A1" pin="1" pinfunction="GND" pintype="passive"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
@@ -1683,33 +1706,29 @@
       <node ref="U5" pin="38" pinfunction="GND" pintype="passive"/>
       <node ref="U5" pin="39" pinfunction="GND" pintype="passive"/>
       <node ref="U6" pin="10" pinfunction="PGND" pintype="input"/>
+      <node ref="U6" pin="11" pinfunction="PAD" pintype="input"/>
       <node ref="U6" pin="4" pinfunction="GND" pintype="input"/>
       <node ref="U6" pin="6" pinfunction="MODE" pintype="input"/>
       <node ref="U6" pin="9" pinfunction="PGND" pintype="input"/>
     </net>
-    <net code="33" name="Net-(C1-Pad1)">
+    <net code="34" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="3V3OUT" pintype="power_out"/>
       <node ref="U2" pin="14" pinfunction="~{RESET}" pintype="input"/>
       <node ref="U2" pin="3" pinfunction="VCCIO" pintype="power_in"/>
     </net>
-    <net code="34" name="Net-(D1-Pad1)">
+    <net code="35" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(D2-Pad2)">
+    <net code="36" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(D3-Pad2)">
+    <net code="37" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
-    </net>
-    <net code="37" name="Net-(L1-Pad1)">
-      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U6" pin="7" pinfunction="SW" pintype="output"/>
-      <node ref="U6" pin="8" pinfunction="SW" pintype="output"/>
     </net>
     <net code="38" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
