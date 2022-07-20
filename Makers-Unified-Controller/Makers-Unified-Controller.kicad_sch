@@ -2340,6 +2340,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid afd38b10-2eca-4abe-aed1-a96fb07ffdbe)
   )
+  (text "TODO: \nRemove/fix charge circuit to prevent charger IC burning up when power is switched off"
+    (at 303.53 22.86 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b7a81511-f5c9-4dd3-b797-f8b13d4f2234)
+  )
   (text "Backup Programming Header" (at 20.32 160.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bde3f73b-f869-498d-a8d7-18346cb7179e)
@@ -4671,10 +4676,10 @@
     (property "Datasheet" "~" (id 3) (at 259.08 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "digikey_part_number" "P16048CT-ND" (id 4) (at 259.08 120.65 0)
+    (property "digikey_part_number" "RMCF0805JT2K20CT-ND" (id 4) (at 259.08 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC_part_number" "C17710" (id 5) (at 259.08 120.65 0)
+    (property "LCSC_part_number" "" (id 5) (at 259.08 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dbd5314d-3ca0-4061-b4c2-be3c3555caa7))
@@ -4696,10 +4701,7 @@
     (property "Datasheet" "~" (id 3) (at 271.78 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "digikey_part_number" "P16048CT-ND" (id 4) (at 271.78 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC_part_number" "C17710" (id 5) (at 271.78 114.3 0)
+    (property "digikey_part_number" "RMCF0805JT2K20CT-ND" (id 4) (at 271.78 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 34da79ad-5913-478c-99d4-1712d1c72156))
@@ -5143,7 +5145,7 @@
       (reference "Q3") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/63021d15-d11b-49d2-bf84-ec09f8b47294/c15d8e35-a568-4071-9637-a6bd86e8dd86"
-      (reference "R1") (unit 1) (value "2.2k") (footprint "")
+      (reference "R1") (unit 1) (value "4.7k") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c7c689"
       (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -5194,13 +5196,13 @@
       (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062e20eb8"
-      (reference "R19") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R19") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061d9e3bc"
       (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062e21419"
-      (reference "R21") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R21") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/63021d15-d11b-49d2-bf84-ec09f8b47294/f3156145-19ea-4752-ad0b-81458c22b10b"
       (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "")

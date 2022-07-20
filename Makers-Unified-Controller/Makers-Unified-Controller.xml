@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/matthew/Documents/Makers-Unified-Controller/Makers-Unified-Controller/Makers-Unified-Controller.kicad_sch</source>
-    <date>Tue 21 Jun 2022 09:38:16 AM EDT</date>
+    <date>Wed 20 Jul 2022 06:09:24 PM EDT</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -498,15 +498,14 @@
       <tstamps>00000000-0000-0000-0000-000061d99097</tstamps>
     </comp>
     <comp ref="R19">
-      <value>470</value>
+      <value>2.2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC_part_number">C17710</field>
-        <field name="digikey_part_number">P16048CT-ND</field>
+        <field name="digikey_part_number">RMCF0805JT2K20CT-ND</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="digikey_part_number" value="P16048CT-ND"/>
-      <property name="LCSC_part_number" value="C17710"/>
+      <property name="digikey_part_number" value="RMCF0805JT2K20CT-ND"/>
+      <property name="LCSC_part_number" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Makers-Unified-Controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -528,15 +527,13 @@
       <tstamps>00000000-0000-0000-0000-000061d9e3bc</tstamps>
     </comp>
     <comp ref="R21">
-      <value>470</value>
+      <value>2.2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC_part_number">C17710</field>
-        <field name="digikey_part_number">P16048CT-ND</field>
+        <field name="digikey_part_number">RMCF0805JT2K20CT-ND</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="digikey_part_number" value="P16048CT-ND"/>
-      <property name="LCSC_part_number" value="C17710"/>
+      <property name="digikey_part_number" value="RMCF0805JT2K20CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Makers-Unified-Controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -716,14 +713,14 @@
         <field name="MAXIMUM_PACKAGE_HEIGHT">30.1mm</field>
         <field name="PARTREV">N/A</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="digikey_part_number">1568-1526-ND</field>
+        <field name="digikey_part_number">COM-09032</field>
       </fields>
       <libsource lib="Project_Imports" part="COM-09032" description=""/>
       <property name="STANDARD" value="Manufacturer Recommendations"/>
       <property name="PARTREV" value="N/A"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="30.1mm"/>
       <property name="MANUFACTURER" value="SparkFun Electronics"/>
-      <property name="digikey_part_number" value="1568-1526-ND"/>
+      <property name="digikey_part_number" value="COM-09032"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Makers-Unified-Controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -751,14 +748,14 @@
         <field name="MAXIMUM_PACKAGE_HEIGHT">30.1mm</field>
         <field name="PARTREV">N/A</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="digikey_part_number">1568-1526-ND</field>
+        <field name="digikey_part_number">COM-09032</field>
       </fields>
       <libsource lib="Project_Imports" part="COM-09032" description=""/>
       <property name="STANDARD" value="Manufacturer Recommendations"/>
       <property name="PARTREV" value="N/A"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="30.1mm"/>
       <property name="MANUFACTURER" value="SparkFun Electronics"/>
-      <property name="digikey_part_number" value="1568-1526-ND"/>
+      <property name="digikey_part_number" value="COM-09032"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Makers-Unified-Controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -796,7 +793,6 @@
     </comp>
     <comp ref="C2">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -811,7 +807,6 @@
     </comp>
     <comp ref="C3">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -826,7 +821,6 @@
     </comp>
     <comp ref="C4">
       <value>1u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C28323</field>
         <field name="digikey_part_number">1276-1275-1-ND</field>
@@ -841,7 +835,6 @@
     </comp>
     <comp ref="C5">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -856,7 +849,6 @@
     </comp>
     <comp ref="C12">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C15850</field>
         <field name="digikey_part_number">1276-6455-1-ND</field>
@@ -871,7 +863,6 @@
     </comp>
     <comp ref="C13">
       <value>1u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C28323</field>
         <field name="digikey_part_number">1276-1275-1-ND</field>
@@ -886,7 +877,6 @@
     </comp>
     <comp ref="D1">
       <value>CDBA340-G</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
       <fields>
         <field name="digikey_part_number">641-1101-1-ND</field>
       </fields>
@@ -899,7 +889,6 @@
     </comp>
     <comp ref="J3">
       <value>BAT Connector</value>
-      <footprint>Footprint_Imports:PRT-18286 Connector</footprint>
       <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="power_management.kicad_sch"/>
@@ -908,8 +897,6 @@
     </comp>
     <comp ref="L1">
       <value>6.2u</value>
-      <footprint>Inductor_SMD:L_6.3x6.3_H3</footprint>
-      <datasheet>https://www.we-online.com/katalog/datasheet/744053006.pdf</datasheet>
       <fields>
         <field name="digikey_part_number">732-1041-1-ND</field>
       </fields>
@@ -935,13 +922,12 @@
       <tstamps>cb9803fd-9c70-4aa2-9fdd-1d430b4c3f7b</tstamps>
     </comp>
     <comp ref="R1">
-      <value>2.2k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <value>4.7k</value>
       <fields>
-        <field name="digikey_part_number">RMCF0805JT2K20CT-ND</field>
+        <field name="digikey_part_number">RMCF0805FT4K70CT-ND</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="digikey_part_number" value="RMCF0805JT2K20CT-ND"/>
+      <property name="digikey_part_number" value="RMCF0805FT4K70CT-ND"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="power_management.kicad_sch"/>
       <sheetpath names="/Power Management/" tstamps="/63021d15-d11b-49d2-bf84-ec09f8b47294/"/>
@@ -949,7 +935,6 @@
     </comp>
     <comp ref="R6">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <fields>
         <field name="LCSC_part_number">C17414</field>
         <field name="digikey_part_number">RMCF0805JT10K0CT-ND</field>
@@ -964,7 +949,6 @@
     </comp>
     <comp ref="SW1">
       <value>SW_DPDT_x2</value>
-      <footprint>Footprint_Imports:SW_L102021ML04Q</footprint>
       <fields>
         <field name="digikey_part_number">CKC5102-ND</field>
       </fields>
@@ -976,7 +960,7 @@
       <tstamps>f3156145-19ea-4752-ad0b-81458c22b10b</tstamps>
     </comp>
     <comp ref="U3">
-      <value>MCP73832-2-OT</value>
+      <value>MCP73832-2-0T</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
       <libsource lib="Battery_Management" part="MCP73832-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package"/>
